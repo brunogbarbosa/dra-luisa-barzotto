@@ -12,6 +12,24 @@ export const metadata: Metadata = {
   title: site.seo.title,
   description: site.seo.description,
   ...(site.seo.url ? { alternates: { canonical: '/' } } : {}),
+  openGraph: {
+    title: site.seo.title,
+    description: site.seo.description,
+    locale: 'pt_BR',
+    type: 'website',
+    images: [{
+      url: '/images/og-luisa-barzotto.jpg',
+      width: 1200,
+      height: 675,
+      alt: 'Dra. Luísa Barzotto — Harmonização Facial',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: site.seo.title,
+    description: site.seo.description,
+    images: ['/images/og-luisa-barzotto.jpg'],
+  },
 };
 export default function RootLayout({children}: Readonly<{children:React.ReactNode}>) {
   return <html lang="pt-BR"><body style={{

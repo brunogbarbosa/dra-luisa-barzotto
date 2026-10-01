@@ -26,4 +26,4 @@ Importe este repositório na Vercel com o diretório raiz `./`. O framework é N
 
 Os dados, textos, links e resultados estão em `data/site.ts`. O botão de agendamento abre o WhatsApp informado para o projeto: `(51) 99777-9003`. A localização e a especialidade seguem as informações públicas da clínica. Os retratos e comparativos foram fornecidos para este site e convertidos para WebP sem retoque visual. Os resultados são individuais.
 
-O favicon está em `app/icon.svg`. Nenhuma imagem OG foi criada ou incluída.
+O favicon está em `app/icon.svg`. A imagem de compartilhamento fornecida para o projeto foi otimizada em `public/images/og-luisa-barzotto.jpg` e configurada nas tags Open Graph e Twitter Card.
