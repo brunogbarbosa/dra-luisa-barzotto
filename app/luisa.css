@@ -1,0 +1,25 @@
+/* Luísa Barzotto Clinic: graphite, warm ivory and brushed champagne. */
+.essence-editorial { background: #f5f1eb; }
+.essence-values { background: #eae3d9; }
+.essence-value { background: #faf8f3e6; border-color: #ffffffa8; }
+.essence-value-icon { background: #dfd2bd; color: #292521; }
+.essence-editorial-prelude,
+.essence-editorial-description,
+.essence-value p { color: #6d645c; }
+.gallery-chapter,
+.closing-chapter,
+.footer,
+.result-dialog { background: #201c19; }
+.gallery-photo,
+.comparison { background: #302a25; }
+.gallery-heading p,
+.footer-main > div { color: #ded5c9; }
+.ritual-chapter { background: #f5f1eb; }
+.social-chapter { background: #e9e1d5; }
+.closing-chapter { background: radial-gradient(circle at 80% 20%, #44382b, #201c19 58%); }
+.menu-dialog { background: #f5f1eb; }
+.viewer-note { color: #d4bd93; }
+@media (max-width: 700px) {
+  .gallery-heading p { max-width: 30rem; }
+  .gallery-photo { aspect-ratio: .88; }
+}
